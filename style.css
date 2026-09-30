@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 16px;
+
+
+}
+
+:root {
+     --body-color : #1f242d;
+     --bg-color :  #f5cb5c;
+     --text-color : #ffff;
+
+}
+
+body{
+  background-color:;
+}
+
+header{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 50px 80px;
+}
+
+a{
+    color: var(--text-color);
+    font-size: 22px;
+   padding: 10px ;
+}
+
+button{
+
+  border-radius:20px ;
+  /* height: 50; */
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.b1{
+  background-color: black;
+  color: white;
+}
+
+.b2{
+  background-color: red;
+  color: white;
+}
+.heroimg{
+  width: 100%;
+}
+
+.welcomeDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  gap: 20px;
+  padding: 20px;
+  padding-top: 70px;
+}
+
+.welcomeBox{
+  display: flex;
+  /* margin: 5px; */
+  padding: 5px;
+  /* background-color: yellow; */
+  width: 80%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.welImg{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* height: 150px;
+  width: 250px; */
+  border-radius: 5px;
+}
+
+.welDiv2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+
+  .welDiv2 > button{
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    
+  }
+
+  .logo-text-hold {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.welcomeDiv > h1 {
+  font-size: 40px;
+
+}
